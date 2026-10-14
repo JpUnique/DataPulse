@@ -1,0 +1,52 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Test and benchmark output
+test-results/
+playwright-report/
+benchmark-results/
+
+# Local databases and volumes
+data/
+volumes/
+
+# Generated secrets and certificates
+*.crt
+*.p12
